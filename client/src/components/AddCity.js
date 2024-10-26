@@ -4,7 +4,7 @@ const AddCity = ({ handleSubmit, handleInputChange, newCity }) => {
     return (
         <form className="px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit}>
             <input
-                placeholder="Add your favorite City"
+                placeholder="Tambahkan Kota favorit Anda"
                 type="text"
                 className="shadow border rounded w-3/5 py-2 px-3 text-grey-dark leading-tight"
                 onChange={handleInputChange}
