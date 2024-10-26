@@ -14,7 +14,7 @@ const AddCity = ({ handleSubmit, handleInputChange, newCity }) => {
                 type="submit"
                 className="w-1/5 bg-teal hover:bg-teal-dark text-white font-bold py-2 px-3 mx-2 rounded"
             >
-                Add City
+                Tambahkan Kota
             </button>
         </form>
     );

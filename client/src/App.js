@@ -42,8 +42,8 @@ const App = () => {
 
   return (
     <div className="container text-center mx-auto my-20 text-grey-darkest">
-      <h1 className="my-3 text-grey-darker">My Awesome Weather Dashboard</h1>
-      <p>The current weather for your favorite cities!</p>
+      <h1 className="my-3 text-grey-darker">Weather App</h1>
+      <p>Cuaca terkini untuk kota favorit Anda!</p>
       <AddCity
         handleSubmit={handleSubmit}
         handleInputChange={handleInputChange}
